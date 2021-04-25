@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'woff2font', Fallback, sans-serif;
   }
   
   /* Make content area fill the entire browser window */
@@ -20,4 +20,9 @@ body {
   
   .title {
     font-size: 3rem;
+  }
+
+  @font-face {
+    font-family: 'woff2font';
+    src:  url('Kscript.woff2') format('woff2'),
   }
